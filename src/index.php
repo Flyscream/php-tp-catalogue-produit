@@ -41,6 +41,6 @@ $catalogue = [
 
 // Code à écrire
 $NombreArticles = count($catalogue);
-for($ListCount = 0; $ListCount < $TotArticle; $ListCount++){
-    echo "le produit: " . $catalogue [$ListCount] . "le prix" . $catalogue []
+for($ListCount = 0; $ListCount < $NombreArticles; $ListCount++){
+    echo "le produit: " . $catalogue [$ListCount]["nom"] . "le prix" . $catalogue [$ListCount] ["prix"] . "€ \n" ;
 }
