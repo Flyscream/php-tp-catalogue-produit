@@ -40,3 +40,7 @@ $catalogue = [
 ];
 
 // Code à écrire
+$NombreArticles = count($catalogue);
+for($ListCount = 0; $ListCount < $TotArticle; $ListCount++){
+    echo "le produit: " . $catalogue [$ListCount] . "le prix" . $catalogue []
+}
